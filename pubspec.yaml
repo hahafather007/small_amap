@@ -2,7 +2,7 @@ name: small_amap
 description: 一款全新方式的高德地图插件，绝对轻量级。适配Android和IOS
 version: 0.0.1
 author: github@hahafather007
-homepage:
+homepage: https://github.com/hahafather007/small_amap
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  web_vuw:
+    git: https://github.com/hahafather007/Web_Vuw.git
 
 dev_dependencies:
   flutter_test:

@@ -86,6 +86,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  small_amap:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   source_span:
     dependency: transitive
     description:
@@ -142,5 +149,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.8"
+  web_vuw:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: d64a8e60a04a1fd6f84ff34f884cf8407259eb74
+      url: "https://github.com/hahafather007/Web_Vuw.git"
+    source: git
+    version: "0.2.4"
 sdks:
   dart: ">=2.2.2 <3.0.0"
