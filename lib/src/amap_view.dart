@@ -12,6 +12,8 @@ class AmapView extends StatefulWidget {
   final double height;
   final double width;
   final int initZoom;
+  final int maxZoom;
+  final int minZoom;
 
   AmapView(
       {Key key,
@@ -19,7 +21,9 @@ class AmapView extends StatefulWidget {
       this.controller,
       this.width,
       this.height,
-      this.initZoom = 15})
+      this.initZoom = 15,
+      this.maxZoom,
+      this.minZoom})
       : super(key: key);
 
   @override
@@ -52,6 +56,7 @@ class _AmapState extends State<AmapView> {
                   html: data,
                   enableJavascript: true,
                   javaScriptMode: JavaScriptMode.unrestricted,
+                  enableLocalStorage: true,
                 )
               : Container();
         },

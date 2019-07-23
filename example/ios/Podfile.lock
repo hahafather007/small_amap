@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - web_vuw (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - web_vuw (from `.symlinks/plugins/web_vuw/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  web_vuw:
+    :path: ".symlinks/plugins/web_vuw/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  web_vuw: b817b04c6745e3fa83a79124a8207f5e0a55dd88
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.7.3
